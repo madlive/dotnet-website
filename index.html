@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="DOT.NET DIGITAL SERVICE CENTER - Online services, printing, photo frames, PVC cards and digital services at Uttar Dalkhola, Dalkhola.">
+<title>DOT.NET DIGITAL SERVICE CENTER</title>
+<style>
+:root{--blue:#0757c9;--dark:#08275c;--light:#f4f8ff;--green:#16a34a}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;color:#182230;background:#f7f9fc;line-height:1.6}
+header{position:sticky;top:0;z-index:99;background:#fff;box-shadow:0 2px 14px #0001}
+.nav{max-width:1150px;margin:auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:46px;height:46px;border-radius:12px;background:linear-gradient(135deg,#0757c9,#12a4ff);color:#fff;display:grid;place-items:center;font-weight:900;font-size:20px}
+.brand b{display:block;color:var(--dark);font-size:17px}.brand span{font-size:11px;color:#687386}
+nav a{text-decoration:none;color:#24334d;margin-left:18px;font-weight:700;font-size:14px}
+.hero{background:linear-gradient(135deg,#06285e,#0757c9 55%,#12a4ff);color:white;padding:85px 20px;text-align:center}
+.hero .tag{display:inline-block;background:#ffffff20;border:1px solid #ffffff40;padding:7px 14px;border-radius:30px;margin-bottom:18px;font-weight:700}
+.hero h1{font-size:clamp(32px,6vw,58px);line-height:1.08;margin-bottom:15px}
+.hero p{max-width:760px;margin:auto;color:#eaf4ff;font-size:18px}
+.buttons{margin-top:28px}.btn{display:inline-block;padding:13px 22px;border-radius:9px;text-decoration:none;font-weight:800;margin:5px}
+.btn.white{background:#fff;color:#0757c9}.btn.green{background:#16a34a;color:#fff}
+section{max-width:1150px;margin:auto;padding:65px 20px}
+.title{text-align:center;margin-bottom:35px}.title h2{color:var(--dark);font-size:32px}.title p{color:#6a7484}
+.about{background:#fff;border-radius:18px;padding:30px;box-shadow:0 5px 25px #0000000b;text-align:center;max-width:850px;margin:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+.card{background:#fff;padding:25px;border-radius:16px;box-shadow:0 5px 20px #0000000b;border:1px solid #e9eef6;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 10px 28px #0757c920}
+.icon{font-size:35px;margin-bottom:8px}.card h3{color:#123d82;margin-bottom:7px}.card p{color:#687386;font-size:14px}
+.feature{background:var(--light);max-width:none}.feature-inner{max-width:1150px;margin:auto;padding:0 20px}
+.photo-box{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:center}
+.mock-photo{min-height:280px;border-radius:20px;background:linear-gradient(135deg,#dcecff,#fff);display:grid;place-items:center;border:2px dashed #8eb8ef;color:#0757c9;font-size:24px;font-weight:800;text-align:center;padding:20px}
+.info h3{font-size:28px;color:var(--dark);margin-bottom:10px}.info p{color:#687386;margin-bottom:15px}
+.contact-wrap{background:#fff;border-radius:20px;box-shadow:0 5px 25px #0000000b;display:grid;grid-template-columns:1fr 1fr;overflow:hidden}
+.contact-info{padding:35px}.contact-info h3{color:var(--dark);font-size:26px;margin-bottom:15px}.line{margin:12px 0}.map{min-height:320px;background:#eaf2ff;display:grid;place-items:center;text-align:center;padding:20px;color:#41618e}
+footer{background:#071f48;color:#dce8ff;text-align:center;padding:28px 20px}
+footer b{color:#fff}
+@media(max-width:750px){nav{display:none}.photo-box,.contact-wrap{grid-template-columns:1fr}.hero{padding:65px 20px}section{padding:48px 16px}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="nav">
+  <div class="brand">
+    <div class="logo">D.</div>
+    <div><b>DOT.NET</b><span>DIGITAL SERVICE CENTER</span></div>
+  </div>
+  <nav>
+    <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </nav>
+</div>
+</header>
+
+<section class="hero" id="home">
+  <div class="tag">DIGITAL • ONLINE • PRINTING SERVICES</div>
+  <h1>DOT.NET DIGITAL<br>SERVICE CENTER</h1>
+  <p>Your local destination for online services, printing, photo work, PVC cards and digital assistance.</p>
+  <div class="buttons">
+    <a class="btn white" href="tel:+919382517601">📞 Call Now</a>
+    <a class="btn green" href="https://wa.me/919382517601" target="_blank">💬 WhatsApp</a>
+  </div>
+</section>
+
+<section id="about">
+  <div class="title"><h2>About Us</h2><p>Simple, reliable and convenient digital service.</p></div>
+  <div class="about">
+    <p><b>DOT.NET DIGITAL SERVICE CENTER</b> provides a range of digital, online, printing and document-related services from one convenient location. Visit our center for service assistance and customized printing/photo work.</p>
+  </div>
+</section>
+
+<section id="services">
+  <div class="title"><h2>Our Services</h2><p>Some of our popular services</p></div>
+  <div class="grid">
+    <div class="card"><div class="icon">💻</div><h3>Online Services</h3><p>Online forms, applications and digital assistance.</p></div>
+    <div class="card"><div class="icon">🖨️</div><h3>Print & Xerox</h3><p>Black & white, colour printing and photocopy.</p></div>
+    <div class="card"><div class="icon">📸</div><h3>Photo Printing</h3><p>A4 photo printing and customized photo work.</p></div>
+    <div class="card"><div class="icon">🪪</div><h3>PVC Card</h3><p>PVC card and card-cover related services.</p></div>
+    <div class="card"><div class="icon">🖼️</div><h3>Photo Frames</h3><p>Customized photo frames in different sizes.</p></div>
+    <div class="card"><div class="icon">📄</div><h3>Lamination</h3><p>Document and photo lamination service.</p></div>
+    <div class="card"><div class="icon">🏛️</div><h3>CSC Services</h3><p>Digital and citizen service assistance.</p></div>
+    <div class="card"><div class="icon">📑</div><h3>Document Work</h3><p>Scanning, document preparation and related work.</p></div>
+  </div>
+</section>
+
+<div class="feature">
+<section>
+  <div class="title"><h2>Customized Photo Frame</h2><p>Turn your favourite memories into beautiful prints.</p></div>
+  <div class="photo-box">
+    <div class="mock-photo">YOUR PHOTO<br>→<br>PRINTED ON<br>QUALITY PHOTO PAPER</div>
+    <div class="info">
+      <h3>Make Your Memory Special</h3>
+      <p>Send your photo to us on WhatsApp and get it printed as a customized photo frame.</p>
+      <p><b>WhatsApp: 9382517601</b></p>
+      <a class="btn green" href="https://wa.me/919382517601?text=Hello%20DOT.NET%2C%20I%20want%20a%20custom%20photo%20frame." target="_blank">Send Photo on WhatsApp</a>
+    </div>
+  </div>
+</section>
+</div>
+
+<section id="contact">
+  <div class="title"><h2>Contact Us</h2><p>Visit us or contact us directly.</p></div>
+  <div class="contact-wrap">
+    <div class="contact-info">
+      <h3>DOT.NET DIGITAL SERVICE CENTER</h3>
+      <div class="line">📍 <b>Address:</b><br>Uttar Dalkhola, Dalkhola – 733201</div>
+      <div class="line">📞 <b>Mobile:</b> 9382517601</div>
+      <div class="line">🪪 <b>CSC ID:</b> 637713120019</div>
+      <div class="buttons">
+        <a class="btn green" href="https://wa.me/919382517601" target="_blank">WhatsApp Us</a>
+        <a class="btn white" style="border:1px solid #0757c9" href="tel:+919382517601">Call Us</a>
+      </div>
+    </div>
+    <div class="map">
+      <div><h3>📍 Find Our Shop</h3><p>Uttar Dalkhola, Dalkhola<br>PIN – 733201</p><br><a class="btn white" style="border:1px solid #0757c9" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Uttar+Dalkhola%2C+Dalkhola%2C+733201">Open in Google Maps</a></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <b>DOT.NET DIGITAL SERVICE CENTER</b><br>
+  Uttar Dalkhola, Dalkhola – 733201 | 9382517601<br><br>
+  © 2026 DOT.NET. All Rights Reserved.
+</footer>
+
+</body>
+</html>
